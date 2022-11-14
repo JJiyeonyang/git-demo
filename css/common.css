@@ -51,7 +51,7 @@ img {
 }
 .btn.btn--brown:hover {
   color: #fff;
-  border-color: #592b18;
+  background-color: #592b18;
 }
 .btn.btn--gold {
   color: #d9aa8a;
@@ -74,15 +74,13 @@ img {
   background-color: #ea9926;
   border: none;
 }
-.btn.btn--primary:hover {
+.btn.btn.btn--primary:hover {
   background-color: #cc8823;
 }
 .btn.block {
   width: 100%;
 }
-.btn {
-  width: 100%;
-}
+
 /*HEADER*/
 header {
   background-color: #f6f5f0;
@@ -109,6 +107,7 @@ header .sub-menu {
   right: 0;
   display: flex;
 }
+
 header .sub-menu ul.menu {
   font-family: arial, sans-serif;
   display: flex;
@@ -271,6 +270,9 @@ footer .menu {
   display: flex;
   justify-content: center;
 }
+footer .menu li {
+  position: relative;
+}
 footer .menu li::before {
   content: "";
   width: 3px;
@@ -282,7 +284,7 @@ footer .menu li::before {
   right: -1px;
   margin: auto;
 }
-footer .menu li:last-child {
+footer .menu li:last-child::before {
   display: none;
 }
 footer .menu li a {
@@ -304,7 +306,7 @@ footer .btn-group .btn {
   font-size: 12px;
   margin-right: 10px;
 }
-footer .bton-group .btn:last-child {
+footer .btn-group .btn:last-child {
   margin-right: 0;
 }
 footer .info {

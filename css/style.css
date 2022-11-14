@@ -1,4 +1,4 @@
-/*BADGES*/
+/* BADGES */
 header .badges {
   position: absolute;
   top: 120px;
@@ -14,7 +14,7 @@ header .badges .badge {
 /*VISUAL*/
 .visual {
   margin-top: 120px;
-  background-image: url("../images/visual_bg.jpg");
+  background-image: url(../images/visual_bg.jpg);
   background-position: center;
 }
 .visual .inner {
@@ -116,7 +116,7 @@ header .badges .badge {
 .notice .inner__right .toggle-promotion .material-icons {
   font-size: 30px;
 }
-/*PROMOTION*/
+/* PROMOTION */
 .promotion {
   display: flex;
   justify-content: center;
@@ -194,7 +194,8 @@ header .badges .badge {
 .promotion .swiper-button-next::after {
   display: none;
 }
-/*REWARDS*/
+
+/* REWARDS */
 .rewards {
   position: relative;
 }
@@ -216,6 +217,8 @@ header .badges .badge {
 }
 .rewards .inner {
   height: 241px;
+}
+.rewards .inner {
   background-image: url("../images/rewards.jpg");
 }
 .rewards .btn-group {
@@ -236,7 +239,7 @@ header .badges .badge {
   margin-top: 10px;
   flex-grow: 1;
 }
-/*YOUTUBE*/
+/* YOUTUBE VIDEO */
 .youtube {
   position: relative;
   height: 700px;
@@ -283,9 +286,9 @@ header .badges .badge {
   left: 150px;
 }
 
-/*SEASON PRODUCT*/
+/* SEASON PRODUCT */
 .season-product {
-  background-image: url("../images/season_product_bg.jpg");
+  background-image: url(../images/season_product_bg.jpg);
 }
 .season-product .inner {
   height: 400px;
@@ -306,8 +309,7 @@ header .badges .badge {
 .season-product .text-group .description {
   margin-bottom: 15px;
 }
-
-/*SPECIAL PRODUCT*/
+/* SPECIAL PRODUCT */
 .special-product {
   background-image: url("../images/special_bg.png");
 }
@@ -329,8 +331,7 @@ header .badges .badge {
   top: 0;
   right: 0;
 }
-
-/*PICK-YOUR-FAVORITE*/
+/* PICK-YOUR-FAVORITE */
 .pick-your-favorite {
   background-image: url("../images/favorite_bg.png");
   background-attachment: fixed;
@@ -354,10 +355,9 @@ header .badges .badge {
 .pick-your-favorite .text-group .description {
   margin-bottom: 40px;
 }
-
-/*RESERVE STORE*/
+/* RESERVE STORE */
 .reserve-store {
-  background-image: url("../images/reserve_store_bg.png");
+  background-image: url(../images/reserve_store_bg.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -388,7 +388,7 @@ header .badges .badge {
   transform: rotateY(180deg);
 }
 .reserve-store .medal:hover .back {
-  transform: rotateY(0);
+  transform: rotateY(0deg);
 }
 .reserve-store .medal .back .btn {
   position: absolute;
@@ -397,7 +397,6 @@ header .badges .badge {
   right: 0;
   margin: auto;
 }
-
 /*FIND STORE*/
 .find-store {
   background-image: url("../images/find_store_bg.jpg");
@@ -424,7 +423,7 @@ header .badges .badge {
 }
 .find-store .picture2 {
   border-radius: 50%;
-  box-shadow: 2px 2xp 8px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 150px;
   left: 250px;
