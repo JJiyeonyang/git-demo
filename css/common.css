@@ -69,6 +69,20 @@ img {
   color: #333;
   background-color: #fff;
 }
+.btn.btn--primary {
+  color: #fff;
+  background-color: #ea9926;
+  border: none;
+}
+.btn.btn--primary:hover {
+  background-color: #cc8823;
+}
+.btn.block {
+  width: 100%;
+}
+.btn {
+  width: 100%;
+}
 /*HEADER*/
 header {
   background-color: #f6f5f0;
